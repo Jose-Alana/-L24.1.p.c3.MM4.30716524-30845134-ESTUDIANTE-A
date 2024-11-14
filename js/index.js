@@ -9,6 +9,11 @@ Retorno: array de objetos estudiante que pertenecen al semestre indicado.*/
 
 let estudiantes = [
 {nombre: "Luis", semestre: 5, nota: 14},
+{nombre: "Ana", semestre: 4, nota: 12},
+{nombre: "Pedro", semestre: 6, nota: 16},
+{nombre: "Maria", semestre: 5, nota: 8},
+{nombre: "Sofia", semestre: 5, nota: 18},
+{nombre: "Juan", semestre: 4, nota: 9},
 ]
 let estudiantesSemestre = (estudiantes, semestre) => {
     let estudiantesSemestre = [];
